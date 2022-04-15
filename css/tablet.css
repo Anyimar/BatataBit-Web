@@ -17,3 +17,18 @@
 .plans-container--slider{
     justify-content: center;
 }
+
+footer .menu-vertical ul{
+    display: flex;
+}
+
+footer .menu-vertical li{
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+footer .logo img{
+    width:100px;
+    height: 90px;
+}
+

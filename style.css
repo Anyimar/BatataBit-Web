@@ -173,9 +173,9 @@ main{
 /*Estilos de Tblests*/
     /*Dimenciones del contenedor principal*/
     .exchange-currency-table, .exchange-comisiones-table{
-        width: 60%;
-        min-width: 200px;
-        max-width: 220px;
+        width: 100%;
+        min-width: 280px;
+        max-width: 320px;
         height: 300px;
         margin: 0 auto;
         font-family: 'Inter', sans-serif;
@@ -396,7 +396,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;  
-    background-image: url(./assets/imgs/bitcoinbabyx2.jpg);
+    background-image: url(./assets/imgs/bitcoinbabyx2lossy.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -569,5 +569,11 @@ footer .menu-vertical ul{
 .menu-vertical a{
     color: var(--just-white);
     text-decoration: none;
+}
+
+.menu-vertical a:hover{
+
+    text-decoration: underline;
+
 }
 
